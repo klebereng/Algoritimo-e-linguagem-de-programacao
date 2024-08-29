@@ -1,0 +1,137 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP66lB0mwYPC5tEq/e+aej/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/klebereng/Civil/blob/main/Civil\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WjILHwBFns95",
+        "outputId": "caeac273-8d55-4927-d906-07332708a60c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n",
+            "<class 'float'>\n",
+            "<class 'float'>\n",
+            "5.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "a = 2\n",
+        "print(type(a))\n",
+        "b = 3.0\n",
+        "print(type(b))\n",
+        "soma = a+b\n",
+        "print(type(soma))\n",
+        "print(soma)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "PROGRAMA PARA DIVISAO"
+      ],
+      "metadata": {
+        "id": "-2n65-0Arf1j"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num=int(input(\"Digite um numero:\"))\n",
+        "quoc = num//2\n",
+        "resto = num%2\n",
+        "print(\"quociente=\",quoc)\n",
+        "print(\"resto=\",resto)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qDYz4-X9p3sr",
+        "outputId": "aaa49f09-d4b6-499e-c495-7ba63bd7421e"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um numero:9\n",
+            "quociente= 4\n",
+            "resto= 1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "PROGRAMA PARA CALCULAR MEDIA"
+      ],
+      "metadata": {
+        "id": "uSHeOHFCruIK"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "v1 = int(input(\"digite a nota 1:\"))\n",
+        "v2 = int(input(\"digite a nota 2:\"))\n",
+        "media = (v1+v2)/2\n",
+        "print(\"a media e:\",media)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qy4XBdw6qlsC",
+        "outputId": "0b592a87-e5df-42f8-d1ae-4debf5ffb3be"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite a nota 1:5\n",
+            "digite a nota 2:9\n",
+            "a media e: 7.0\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
