@@ -1,1 +1,1 @@
-# Aulas de cmputacao aplicada
+# Aulas de computacao aplicada
